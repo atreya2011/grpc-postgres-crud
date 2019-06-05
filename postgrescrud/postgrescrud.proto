@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package postgrescrud;
+
+import "google/api/annotations.proto";
+import "google/protobuf/Empty.proto";
+
+service PostgresCrud {
+  rpc Create(CreatePersonRequest) returns (CreatePersonResponse) {
+    option (google.api.http) = {
+      post: "/v1/postgrescrud"
+      body: "person"
+    };
+  }
+  rpc List(google.protobuf.Empty) returns (ListPeopleResponse) {
+    option (google.api.http) = {
+      get: "/v1/postgrescrud/all"
+    };
+  }
+  rpc Read(ReadPersonRequest) returns (ReadPersonResponse) {
+    option (google.api.http) = {
+      get: "/v1/postgrescrud/{id}"
+    };
+  }
+}
+
+message Person {
+  int32 id = 1;
+  // @inject_tag: gorm:"not null"
+  string first_name = 2;
+  string middle_name = 3;
+  // @inject_tag: gorm:"not null"
+  string last_name = 4;
+}
+
+message CreatePersonRequest {
+  Person person = 1;
+}
+
+message CreatePersonResponse {
+  int32 id = 1;
+}
+
+message ReadPersonRequest {
+  int32 id = 1;
+}
+
+message ReadPersonResponse {
+  Person person = 1;
+}
+
+message ListPeopleResponse {
+  repeated Person peoples = 1;
+}
