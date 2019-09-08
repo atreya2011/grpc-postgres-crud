@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-pg/pg"
 	"github.com/golang/protobuf/ptypes/empty"
-	"gitlab.com/atreya2011/grpc-practice/postgres-crud/postgrescrud"
+	"github.com/atreya2011/grpc-practice/postgres-crud/postgrescrud"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 )

@@ -10,7 +10,7 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
-	"gitlab.com/atreya2011/grpc-practice/postgres-crud/postgrescrud"
+	"github.com/atreya2011/grpc-practice/postgres-crud/postgrescrud"
 	"google.golang.org/grpc"
 )
 
