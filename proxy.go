@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/atreya2011/grpc-practice/postgres-crud/postgrescrud"
+	"github.com/atreya2011/grpc-postgres-crud/postgrescrud"
 
 	"github.com/golang/glog"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"

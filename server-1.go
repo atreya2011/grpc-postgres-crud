@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-pg/pg/orm"
 
+	"github.com/atreya2011/grpc-postgres-crud/postgrescrud"
 	"github.com/go-pg/pg"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/atreya2011/grpc-practice/postgres-crud/postgrescrud"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 )
