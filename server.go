@@ -7,10 +7,10 @@ import (
 	"log"
 	"net"
 
+	"github.com/atreya2011/grpc-postgres-crud/postgrescrud"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
-	"github.com/atreya2011/grpc-practice/postgres-crud/postgrescrud"
 	"google.golang.org/grpc"
 )
 

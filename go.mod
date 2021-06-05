@@ -8,6 +8,7 @@ require (
 	github.com/golang/protobuf v1.3.2
 	github.com/grpc-ecosystem/grpc-gateway v1.11.1
 	github.com/jinzhu/gorm v1.9.10
+	google.golang.org/genproto v0.0.0-20190404172233-64821d5d2107
 	google.golang.org/grpc v1.23.0
 	mellium.im/sasl v0.2.1 // indirect
 )
