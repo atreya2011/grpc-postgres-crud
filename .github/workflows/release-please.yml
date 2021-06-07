@@ -13,4 +13,4 @@ jobs:
         uses: GoogleCloudPlatform/release-please-action@v2
         with:
           release-type: go
-          changelog-path: "CHANGELOG.md"
+          changelog-path: CHANGELOG.md
