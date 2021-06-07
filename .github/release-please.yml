@@ -1,3 +1,2 @@
-releaseType: go
+releaseType: simple
 handleGHRelease: true
-changelogPath: CHANGELOG.md
