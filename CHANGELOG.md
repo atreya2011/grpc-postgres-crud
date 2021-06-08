@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.0.4](https://www.github.com/atreya2011/grpc-postgres-crud/compare/v0.0.3...v0.0.4) (2021-06-08)
+
+
+### Bug Fixes
+
+* add comments ([2d9476e](https://www.github.com/atreya2011/grpc-postgres-crud/commit/2d9476ed5ed8ff623e5aca658438004755e24acd))
+
 ### [0.0.3](https://www.github.com/atreya2011/grpc-postgres-crud/compare/v0.0.2...v0.0.3) (2021-06-07)
 
 
